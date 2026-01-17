@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "942711915896",
+    "project_id": "cyra-7215a",
+    "storage_bucket": "cyra-7215a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942711915896:android:3332aa678af10d7d51f48d",
+        "android_client_info": {
+          "package_name": "com.palindustries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942711915896-eqqmlur35t5vkrfccqolnu0otu8okdga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.palindustries",
+            "certificate_hash": "d15282710bddd2c760bded751c9ddd3440b7a389"
+          }
+        },
+        {
+          "client_id": "942711915896-sp4f56l23ji50qsgi1jbhfdnt0anc456.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm7ZVEnzoC0DIZ_FCIhEHIGkMJELLo0qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942711915896-sp4f56l23ji50qsgi1jbhfdnt0anc456.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
