@@ -37,6 +37,13 @@
             {
               "client_id": "942711915896-sp4f56l23ji50qsgi1jbhfdnt0anc456.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "942711915896-u5qm63joqhoa18sqjbi24eqann353vit.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.palindustries"
+              }
             }
           ]
         }

@@ -5,6 +5,7 @@ import 'package:cyra/core/theme/app_theme.dart';
 import 'package:cyra/core/theme/theme_provider.dart';
 import 'package:cyra/core/services/auth_service.dart';
 import 'package:cyra/features/auth/presentation/screens/login_screen.dart';
+import 'package:cyra/features/chat/presentation/screens/chat_list_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -55,9 +56,9 @@ class AuthWrapper extends StatelessWidget {
           );
         }
 
-        // If user is logged in, show home page
+        // If user is logged in, show chat list screen
         if (snapshot.hasData && snapshot.data != null) {
-          return const MyHomePage(title: 'Cyra');
+          return const ChatListScreen();
         }
 
         // If user is not logged in, show login screen
